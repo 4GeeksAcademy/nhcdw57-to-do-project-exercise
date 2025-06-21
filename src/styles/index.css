@@ -9,3 +9,22 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body{
+    background-color: teal;
+}
+
+input:focus {
+    outline: none !important;
+    border: none !important;
+}
+
+.list-group-item:hover .delete-btn {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.delete-btn {
+  opacity: 0;
+  pointer-events: none;
+}
