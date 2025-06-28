@@ -28,3 +28,7 @@ input:focus {
   opacity: 0;
   pointer-events: none;
 }
+
+.overlapBottom {
+  position: relative;
+}
